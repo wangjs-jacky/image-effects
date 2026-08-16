@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "wangjs-jacky/jacky-skills",
+  "sourceCommit": "39a3fe2ea513b615820b787c0930739073c911d1",
+  "files": [
+    {
+      "path": ".github/workflows/pages.yml",
+      "sha256": "6049bfbb94975d199ab940ba6802dae660b39ecb9f5071ee66afa7ab793035f8"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "17e66b0ee14dc8667e204a0e6c8c9157cc670578ab8b74b84fc871fa62e250c5"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "e5ccc8f44970c28d34dfed371bc2bac85e737fd6416615527957e8e87c3018f4"
+    },
+    {
+      "path": "README.md",
+      "sha256": "af97db4b1b3a297858e49ae89416510a5d085fb6cc505ad2d73e168fdb5509fc"
+    },
+    {
+      "path": "README_CN.md",
+      "sha256": "8a7b3be18880b36f8b2e875279652087d1749f6ca38c6579c89a30a58853af4f"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "30a2347db6e4e469c6b1bdc762da4d864d2573efd39a59aaf5bc0e8d488c16c7"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "32f2b4d614b218f54454b16d5531eb1e58d312d2844e6de7612c918ef5948ac6"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "a66dc5a7bf8c6ebb930305ca6a32de35f18eb349e348fb6350da240d3f45deca"
+    },
+    {
+      "path": "assets/previews/healing-anime-scribble-v3.jpg",
+      "sha256": "70a3c534832532faed62cb80816df56002382cb661b51d2077d7eab429760daf"
+    },
+    {
+      "path": "gallery/api/library.json",
+      "sha256": "52d86fc4b657b45961cfd8f48845251dd65416d536f8a4ba279a8dabb1b21aa0"
+    },
+    {
+      "path": "gallery/app.js",
+      "sha256": "536540a1599f07be5a8295a446e9a01784ed27bc7dd08f48699f5026f713a470"
+    },
+    {
+      "path": "gallery/gallery-model.mjs",
+      "sha256": "f3040ea32e2d9e9fa741e5c300686f136b897ec08178ce69042d39b97da9ab30"
+    },
+    {
+      "path": "gallery/gallery-runtime.mjs",
+      "sha256": "01f57929d0c5023a67ea1c0d93b74a2e769ffe874926febd4cc61046e0a4d472"
+    },
+    {
+      "path": "gallery/index.html",
+      "sha256": "10520a681fc83e759474a6382a1bc9b5aeb3500a2ff8f2467dbbf663bbdd938c"
+    },
+    {
+      "path": "gallery/media/healing-anime-scribble-v3@1.0.0.jpg",
+      "sha256": "70a3c534832532faed62cb80816df56002382cb661b51d2077d7eab429760daf"
+    },
+    {
+      "path": "gallery/source/healing-anime-scribble-v3@1.0.0.md",
+      "sha256": "99ca368297c0f6e94ce574e7c5c6fb92da08773333936a43c6e5c13e52241e04"
+    },
+    {
+      "path": "gallery/styles.css",
+      "sha256": "4138890c9495833a8c822056f4a02964ea7efc667ca7022fcb6f303e963708ba"
+    },
+    {
+      "path": "gallery/translations.js",
+      "sha256": "7d000c0a9bb378e2c285294664643df936645349224c41dd8f9020faa2e9ae7d"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "18a10125172ebc5e4679afdc08ffa7dd538f4d054cdf42b725dd08f1e3e943da"
+    },
+    {
+      "path": "package.json",
+      "sha256": "675eca14edc58fc01e6c2f8ea6b84111ff71a1ef5d96c6c0e556ae20306cea90"
+    },
+    {
+      "path": "references/INDEX.md",
+      "sha256": "610ec9bcb332e52618557d4200ce269d42d8e923a6562518aede530a12f9b4d0"
+    },
+    {
+      "path": "references/effects/healing-anime-scribble-v3.md",
+      "sha256": "99ca368297c0f6e94ce574e7c5c6fb92da08773333936a43c6e5c13e52241e04"
+    },
+    {
+      "path": "scripts/build-gallery.mjs",
+      "sha256": "e53b98b47b26dc384491503a422aed2993eae00e3fa6a3aa492100d5343d4af2"
+    },
+    {
+      "path": "scripts/effect-library.mjs",
+      "sha256": "e17067fe1b520037e560e8209cc1ace3ef8907f867180b786df3b79a7bca0568"
+    },
+    {
+      "path": "scripts/export-public-repo.mjs",
+      "sha256": "fd4a78ec79f611ed9cfe2fc85203517fe85c462ef97ca31f6b9007757b039cb9"
+    },
+    {
+      "path": "scripts/image-metadata.mjs",
+      "sha256": "01b89f82aa71426dc40b69816b4b5fcff218defe85d7d8ca7e2016c5eea8bf6f"
+    },
+    {
+      "path": "scripts/validate-effects.mjs",
+      "sha256": "1b11c51bfe0b5174f74769961294d5474566523175565a9146740f8096e33359"
+    },
+    {
+      "path": "tests/build-gallery.test.mjs",
+      "sha256": "9e716f7b08b6f574496bcf5b106f687591cdfe49df5f55d92a184b55183d06eb"
+    },
+    {
+      "path": "tests/effect-assets.test.mjs",
+      "sha256": "93e3aee03e7431966d7d503b97ef20b5dde09c022873655b3582ae1569c0176f"
+    },
+    {
+      "path": "tests/effect-library.test.mjs",
+      "sha256": "8f62e6af62e25cf1a2f693773dff32bf29fa368b0062776bfa072a4af04bcd8f"
+    },
+    {
+      "path": "tests/export-public-repo.test.mjs",
+      "sha256": "1deef068d2f02ce911387bf7abff44babeed144738bbbd0453ea6bff4180d269"
+    },
+    {
+      "path": "tests/gallery-assets.test.mjs",
+      "sha256": "d80f4ec0a4e5b53816654b695ec4675a90b0c2f6c6b7b263f1b78ad700563051"
+    },
+    {
+      "path": "tests/gallery-model.test.mjs",
+      "sha256": "05339931fd2e5a123ad88c04dd9c561d4d81866593d06490271b0e610acd3d0f"
+    }
+  ]
+}

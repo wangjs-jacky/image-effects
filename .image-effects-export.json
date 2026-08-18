@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "wangjs-jacky/jacky-skills",
-  "sourceCommit": "39a3fe2ea513b615820b787c0930739073c911d1",
+  "sourceCommit": "f61d25d718d63195e6ea4992f25578375e784abd",
   "files": [
     {
       "path": ".github/workflows/pages.yml",
@@ -17,19 +17,23 @@
     },
     {
       "path": "README.md",
-      "sha256": "af97db4b1b3a297858e49ae89416510a5d085fb6cc505ad2d73e168fdb5509fc"
+      "sha256": "5c3414d2c7fa21206a49ddd13dc55e8131afcc85f31540524f1ecb5c6e4789bd"
     },
     {
       "path": "README_CN.md",
-      "sha256": "8a7b3be18880b36f8b2e875279652087d1749f6ca38c6579c89a30a58853af4f"
+      "sha256": "fea8dada1e3caf15f339501dc8d89371e8334920b0f56afa16b73e6b8d8a5510"
     },
     {
       "path": "SKILL.md",
-      "sha256": "30a2347db6e4e469c6b1bdc762da4d864d2573efd39a59aaf5bc0e8d488c16c7"
+      "sha256": "5ba0b6927190ac5033104ebb705a56dd021341703a489694c03705f52362aa46"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.header.md",
+      "sha256": "73346c535e3458132c9137684951b9bd59505dddc29c2772ed59ddb87a811cd7"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "32f2b4d614b218f54454b16d5531eb1e58d312d2844e6de7612c918ef5948ac6"
+      "sha256": "88b827b747cfb427931873593b0c6dd971d8681048f06566cf80355fe7cb0486"
     },
     {
       "path": "agents/openai.yaml",
@@ -40,16 +44,44 @@
       "sha256": "70a3c534832532faed62cb80816df56002382cb661b51d2077d7eab429760daf"
     },
     {
+      "path": "assets/previews/minimal-zine-poster.png",
+      "sha256": "d7796377f564a40d0aaae89028afcfb12cad1aeaf5b2736ece69c4277e9b9781"
+    },
+    {
+      "path": "assets/previews/photo-illustration-diptych-lakeside.png",
+      "sha256": "e6b830bd342c43ca435022385cfd5b1ea3720de7216d3599e27c3dd205d9b67a"
+    },
+    {
+      "path": "assets/previews/photo-illustration-diptych.png",
+      "sha256": "38fd7df64d4e8a4bc0483cc0be36a0c1324defe123802fe1e1b3c82f2d4ce46f"
+    },
+    {
+      "path": "assets/previews/photo-illustration-editorial-echo.png",
+      "sha256": "6d749c55f692bff9b6a7e2c0ec84545ee05fb6191abfd5eb07df7e6dde9cc990"
+    },
+    {
+      "path": "assets/previews/scene-distillation-zine.png",
+      "sha256": "912552322668018ef62ed2a4a2e3b452f696daf3c9fa136cfc6cc94b83224ac2"
+    },
+    {
+      "path": "assets/previews/scenes-gathered-zine-sea.png",
+      "sha256": "1764d51792f18c11b3f3cf4064127fbde334df159cd10579d0706cd5f864c508"
+    },
+    {
+      "path": "assets/previews/scenes-gathered-zine.png",
+      "sha256": "90bb7eff0da5834cae23ce87d16c8a85a6e9ec581bb00135b8b83b885ea948c1"
+    },
+    {
       "path": "gallery/api/library.json",
-      "sha256": "52d86fc4b657b45961cfd8f48845251dd65416d536f8a4ba279a8dabb1b21aa0"
+      "sha256": "49f2e7b96564df8cff6a236f7132b0c4d284d928c29623e10c969cced9050584"
     },
     {
       "path": "gallery/app.js",
-      "sha256": "536540a1599f07be5a8295a446e9a01784ed27bc7dd08f48699f5026f713a470"
+      "sha256": "5ab063a2db4c92470a9fe714eaf937ac264d8cdc272bac284dd1469c8d8c6d07"
     },
     {
       "path": "gallery/gallery-model.mjs",
-      "sha256": "f3040ea32e2d9e9fa741e5c300686f136b897ec08178ce69042d39b97da9ab30"
+      "sha256": "fef1ccb441521d831725a0ed8c7cae2850c841a45fea0cce07eb51767178a211"
     },
     {
       "path": "gallery/gallery-runtime.mjs",
@@ -64,8 +96,64 @@
       "sha256": "70a3c534832532faed62cb80816df56002382cb661b51d2077d7eab429760daf"
     },
     {
+      "path": "gallery/media/minimal-zine-poster@1.0.0.png",
+      "sha256": "d7796377f564a40d0aaae89028afcfb12cad1aeaf5b2736ece69c4277e9b9781"
+    },
+    {
+      "path": "gallery/media/photo-illustration-diptych-lakeside@1.0.0.png",
+      "sha256": "e6b830bd342c43ca435022385cfd5b1ea3720de7216d3599e27c3dd205d9b67a"
+    },
+    {
+      "path": "gallery/media/photo-illustration-diptych@1.0.0.png",
+      "sha256": "38fd7df64d4e8a4bc0483cc0be36a0c1324defe123802fe1e1b3c82f2d4ce46f"
+    },
+    {
+      "path": "gallery/media/photo-illustration-editorial-echo@1.0.0.png",
+      "sha256": "6d749c55f692bff9b6a7e2c0ec84545ee05fb6191abfd5eb07df7e6dde9cc990"
+    },
+    {
+      "path": "gallery/media/scene-distillation-zine@1.0.0.png",
+      "sha256": "912552322668018ef62ed2a4a2e3b452f696daf3c9fa136cfc6cc94b83224ac2"
+    },
+    {
+      "path": "gallery/media/scenes-gathered-zine-sea@1.0.0.png",
+      "sha256": "1764d51792f18c11b3f3cf4064127fbde334df159cd10579d0706cd5f864c508"
+    },
+    {
+      "path": "gallery/media/scenes-gathered-zine@1.0.0.png",
+      "sha256": "90bb7eff0da5834cae23ce87d16c8a85a6e9ec581bb00135b8b83b885ea948c1"
+    },
+    {
       "path": "gallery/source/healing-anime-scribble-v3@1.0.0.md",
-      "sha256": "99ca368297c0f6e94ce574e7c5c6fb92da08773333936a43c6e5c13e52241e04"
+      "sha256": "382b37fb1f23bbc2a4922b93dc7dc8e097d374989742096e15638d9ad9d8fb4e"
+    },
+    {
+      "path": "gallery/source/minimal-zine-poster@1.0.0.md",
+      "sha256": "10c3e970271e815b2bf080e9cf2fc809f1c2152da0bed845ce1f386ac1130f21"
+    },
+    {
+      "path": "gallery/source/photo-illustration-diptych-lakeside@1.0.0.md",
+      "sha256": "c4453b8e7c2b1ec72cbff1991372264befbf2512fd65bdea7b3eba96bf694922"
+    },
+    {
+      "path": "gallery/source/photo-illustration-diptych@1.0.0.md",
+      "sha256": "5be1055597fe6573fa0f673319f4fe0d6198d09c531bcd3f42300b457ca53c27"
+    },
+    {
+      "path": "gallery/source/photo-illustration-editorial-echo@1.0.0.md",
+      "sha256": "2985ca3912c4fdec63399e367b6b9eb0885d4b669752f4af0cef2563623bd06c"
+    },
+    {
+      "path": "gallery/source/scene-distillation-zine@1.0.0.md",
+      "sha256": "7e22a8cc2e3d09f09abcb752f3c32ea61c0877182553704afc0ce64265b7c606"
+    },
+    {
+      "path": "gallery/source/scenes-gathered-zine-sea@1.0.0.md",
+      "sha256": "8e87fb0192f6851bf7e1dec083a5e57c797e2538089d207be187bae27fd7b588"
+    },
+    {
+      "path": "gallery/source/scenes-gathered-zine@1.0.0.md",
+      "sha256": "f71f7b60114b2e9d8c36caca8c2143e6d8ff9cd778281341b1aa24746539ffbf"
     },
     {
       "path": "gallery/styles.css",
@@ -73,7 +161,7 @@
     },
     {
       "path": "gallery/translations.js",
-      "sha256": "7d000c0a9bb378e2c285294664643df936645349224c41dd8f9020faa2e9ae7d"
+      "sha256": "a02c39857fab203211c42d9b29dea13a3239c0be26def4cf0b57a0614d897d6e"
     },
     {
       "path": "package-lock.json",
@@ -85,55 +173,103 @@
     },
     {
       "path": "references/INDEX.md",
-      "sha256": "610ec9bcb332e52618557d4200ce269d42d8e923a6562518aede530a12f9b4d0"
+      "sha256": "edd9f8adb60bd0cc794e222d37197e9bd3185eed0376a6d56a5f0c8299df70f5"
     },
     {
       "path": "references/effects/healing-anime-scribble-v3.md",
-      "sha256": "99ca368297c0f6e94ce574e7c5c6fb92da08773333936a43c6e5c13e52241e04"
+      "sha256": "382b37fb1f23bbc2a4922b93dc7dc8e097d374989742096e15638d9ad9d8fb4e"
+    },
+    {
+      "path": "references/effects/minimal-zine-poster.md",
+      "sha256": "10c3e970271e815b2bf080e9cf2fc809f1c2152da0bed845ce1f386ac1130f21"
+    },
+    {
+      "path": "references/effects/photo-illustration-diptych-lakeside.md",
+      "sha256": "c4453b8e7c2b1ec72cbff1991372264befbf2512fd65bdea7b3eba96bf694922"
+    },
+    {
+      "path": "references/effects/photo-illustration-diptych.md",
+      "sha256": "5be1055597fe6573fa0f673319f4fe0d6198d09c531bcd3f42300b457ca53c27"
+    },
+    {
+      "path": "references/effects/photo-illustration-editorial-echo.md",
+      "sha256": "2985ca3912c4fdec63399e367b6b9eb0885d4b669752f4af0cef2563623bd06c"
+    },
+    {
+      "path": "references/effects/scene-distillation-zine.md",
+      "sha256": "7e22a8cc2e3d09f09abcb752f3c32ea61c0877182553704afc0ce64265b7c606"
+    },
+    {
+      "path": "references/effects/scenes-gathered-zine-sea.md",
+      "sha256": "8e87fb0192f6851bf7e1dec083a5e57c797e2538089d207be187bae27fd7b588"
+    },
+    {
+      "path": "references/effects/scenes-gathered-zine.md",
+      "sha256": "f71f7b60114b2e9d8c36caca8c2143e6d8ff9cd778281341b1aa24746539ffbf"
+    },
+    {
+      "path": "references/licenses/conardli-garden-skills-mit.txt",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685"
+    },
+    {
+      "path": "references/licenses/gathered-scenes-zine-contributors-mit.txt",
+      "sha256": "7d063a2fe4a45ac0adf349ab8d568de5bc93206aaa3982a243dd8d067a3e2f4a"
+    },
+    {
+      "path": "references/licenses/happy-coder-contributors-mit.txt",
+      "sha256": "e251d0448ef3ce023c20ebac9b90a7d8642b1434825838247d6e457668eb3e00"
+    },
+    {
+      "path": "references/licenses/liamgvchi-mit.txt",
+      "sha256": "d15c81ae8fa9a0b4b1db46c66e4490cc92e4898fb1f55e030559fbd2a2e2a232"
     },
     {
       "path": "scripts/build-gallery.mjs",
-      "sha256": "e53b98b47b26dc384491503a422aed2993eae00e3fa6a3aa492100d5343d4af2"
+      "sha256": "4edf1ce6d73fbe0e6cfeaa0d637e0dfe96f4cf2aed2baa0dc4c25f75d740fe51"
     },
     {
       "path": "scripts/effect-library.mjs",
-      "sha256": "e17067fe1b520037e560e8209cc1ace3ef8907f867180b786df3b79a7bca0568"
+      "sha256": "150cea410fb5922910420ec2fc10d3c02cbe2825e2c39e0e5ba0293955638eeb"
     },
     {
       "path": "scripts/export-public-repo.mjs",
-      "sha256": "fd4a78ec79f611ed9cfe2fc85203517fe85c462ef97ca31f6b9007757b039cb9"
+      "sha256": "0c4cc3a3be02ec04e1a4e3e2e16b26d3c522de8b4bd9eeefe29d7db9147b46ea"
     },
     {
       "path": "scripts/image-metadata.mjs",
       "sha256": "01b89f82aa71426dc40b69816b4b5fcff218defe85d7d8ca7e2016c5eea8bf6f"
     },
     {
+      "path": "scripts/public-layout.mjs",
+      "sha256": "6eb5f5cf596456f4e5df07f22044a49549307bf573f1701867968e222de998e8"
+    },
+    {
       "path": "scripts/validate-effects.mjs",
-      "sha256": "1b11c51bfe0b5174f74769961294d5474566523175565a9146740f8096e33359"
+      "sha256": "cc2675d57bfc768437a1801e383232ce44dc680bef4f09fcbf404b189ff81c3c"
     },
     {
       "path": "tests/build-gallery.test.mjs",
-      "sha256": "9e716f7b08b6f574496bcf5b106f687591cdfe49df5f55d92a184b55183d06eb"
+      "sha256": "f71f9627eedbe86e93afe60c77b9ba0937660a96fdda864ca0391da1ffcbff53"
     },
     {
       "path": "tests/effect-assets.test.mjs",
-      "sha256": "93e3aee03e7431966d7d503b97ef20b5dde09c022873655b3582ae1569c0176f"
+      "sha256": "56b9ef095f8a13a5fd6dcfcc8eb7a9173af6b7c3cec9f92f85b9fa7daa57215c"
     },
     {
       "path": "tests/effect-library.test.mjs",
-      "sha256": "8f62e6af62e25cf1a2f693773dff32bf29fa368b0062776bfa072a4af04bcd8f"
+      "sha256": "f6eb03c07a52347fc4eb63eb6eb6abd8d3c3f285b4c735c6061e8b7d73924c2b"
     },
     {
       "path": "tests/export-public-repo.test.mjs",
-      "sha256": "1deef068d2f02ce911387bf7abff44babeed144738bbbd0453ea6bff4180d269"
+      "sha256": "a8d36549481f81c82934233a0ad31becd0ed0b74188666acdb3b5e762024679d"
     },
     {
       "path": "tests/gallery-assets.test.mjs",
-      "sha256": "d80f4ec0a4e5b53816654b695ec4675a90b0c2f6c6b7b263f1b78ad700563051"
+      "sha256": "308723794c8925f26a19e2236acf469a7ff6684b5e1670bc763b17fda6d9b535"
     },
     {
       "path": "tests/gallery-model.test.mjs",
-      "sha256": "05339931fd2e5a123ad88c04dd9c561d4d81866593d06490271b0e610acd3d0f"
+      "sha256": "549964841e525462f6fb35f3a4388ee2b27a21d77da9bb3f05d5006f5cfd4011"
     }
   ]
 }

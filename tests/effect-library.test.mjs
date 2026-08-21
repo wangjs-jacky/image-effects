@@ -28,6 +28,7 @@ const EXPECTED_CATALOG_REFS = [
   'scene-distillation-zine@1.0.0',
   'scenes-gathered-zine@1.0.0',
   'scenes-gathered-zine-sea@1.0.0',
+  'torn-paper-editorial-photo-collage@1.0.0',
 ];
 
 const REQUIRED_FIELDS = {
@@ -469,7 +470,7 @@ test('loadEffects reads Markdown cards and returns stable ID and SemVer order', 
   }
 });
 
-test('published effect directory loads the exact approved eight-effect catalog', async () => {
+test('published effect directory loads the exact approved nine-effect catalog', async () => {
   const effects = await loadEffects(EFFECTS_PATH);
 
   assert.deepEqual(

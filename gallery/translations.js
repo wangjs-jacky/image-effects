@@ -7,7 +7,7 @@ export const translations = Object.freeze({
     heroEyebrow: 'Versioned visual recipes',
     heroTitle: 'A small library for deliberate transformations.',
     heroBody:
-      'Install the collection, inspect its source, then invoke a pinned effect on your own image. Eight tested recipes; no filler.',
+      'Install the collection, inspect its source, then invoke a pinned effect on your own image. Nine tested recipes; no filler.',
     archiveLabel: 'Archive status',
     effectCount: '{count} effect',
     effectCountPlural: '{count} effects',
@@ -78,7 +78,7 @@ export const translations = Object.freeze({
     edition: '公开档案 · 01',
     heroEyebrow: '版本化视觉配方',
     heroTitle: '一座小而克制的图像效果档案。',
-    heroBody: '安装效果集，检查公开来源，再把锁定版本的效果用于你的图片。八个经过验证的配方，不用虚假内容填满页面。',
+    heroBody: '安装效果集，检查公开来源，再把锁定版本的效果用于你的图片。九个经过验证的配方，不用虚假内容填满页面。',
     archiveLabel: '档案状态',
     effectCount: '{count} 个效果',
     effectCountPlural: '{count} 个效果',

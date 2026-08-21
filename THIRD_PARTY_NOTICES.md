@@ -83,6 +83,16 @@ The repository root `LICENSE` applies to this repository's own material. It does
 - Notice: `references/licenses/gathered-scenes-zine-contributors-mit.txt` (SHA-256: `7d063a2fe4a45ac0adf349ab8d568de5bc93206aaa3982a243dd8d067a3e2f4a`)
 - Adaptation: Specializes the Gathered Scenes Zine compiler for coastal scenes while preserving its truthful photo anchor, torn-paper handoff, source-derived abstraction, one structural hue, and restrained micro-text.
 
+## torn-paper-editorial-photo-collage@1.0.0
+
+- Repository: `wangjs-jacky/happy`
+- Revision: `d1259c69fdc5494553f31b6736b640d597a89bfb`
+- Source: `packages/happy-app/sources/components/agents/tornPaperEditorialPrompt.ts` (SHA-256: `4f02fadd2656305e75547eb692caabd054b2b64394f2519e225d8e51f55f5c81`)
+- Source: `LICENSE` (SHA-256: `e251d0448ef3ce023c20ebac9b90a7d8642b1434825838247d6e457668eb3e00`)
+- License: [MIT](<https://github.com/wangjs-jacky/happy/blob/d1259c69fdc5494553f31b6736b640d597a89bfb/LICENSE>)
+- Notice: `references/licenses/happy-coder-contributors-mit.txt` (SHA-256: `e251d0448ef3ce023c20ebac9b90a7d8642b1434825838247d6e457668eb3e00`)
+- Adaptation: Preserves the large truthful torn-photo anchor, source-derived monochrome environment, single dry-brush field, aged-paper negative space, input privacy, and one targeted retry in a host-neutral card.
+
 ## Full license notices
 
 ### `references/licenses/conardli-garden-skills-mit.txt`

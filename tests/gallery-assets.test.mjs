@@ -21,6 +21,7 @@ const EXPECTED_REFS = [
   'scene-distillation-zine@1.0.0',
   'scenes-gathered-zine@1.0.0',
   'scenes-gathered-zine-sea@1.0.0',
+  'torn-paper-editorial-photo-collage@1.0.0',
 ];
 const EXPECTED_PROVENANCE = {
   'healing-anime-scribble-v3@1.0.0': {
@@ -46,7 +47,7 @@ const EXPECTED_PROVENANCE = {
   'photo-illustration-editorial-echo@1.0.0': {
     repository: 'wangjs-jacky/happy',
     revision: 'e8716a0a0c949f8e2b45e1e3d7c8d36ad7bba17c',
-    origin: 'Locally composed from two text-only generated fictional assets; not based on a real person, place, brand, or third-party image.',
+    origin: 'Text-only image generation of a fictional rainy storefront and bicycle; not based on a real person, place, brand, or third-party image.',
   },
   'scene-distillation-zine@1.0.0': {
     repository: 'Zeejay0/gathered-scenes-zine-skill',
@@ -62,6 +63,11 @@ const EXPECTED_PROVENANCE = {
     repository: 'Zeejay0/gathered-scenes-zine-skill',
     revision: 'e764b7fd243d7cc501723b9d325279bf6dd852c2',
     origin: 'Text-only image generation of a fictional scene; not based on a real person, place, brand, or third-party image.',
+  },
+  'torn-paper-editorial-photo-collage@1.0.0': {
+    repository: 'wangjs-jacky/happy',
+    revision: 'd1259c69fdc5494553f31b6736b640d597a89bfb',
+    origin: 'Text-only image generation of a fictional rainy stair scene with an unattended umbrella; not based on a real person, place, brand, or third-party image.',
   },
 };
 
@@ -217,7 +223,7 @@ test('Library 固定公开来源、源码许可和预览署名契约', async (t)
 test('English public README documents the complete standalone catalog contract', async () => {
   const readme = await readFile(publicTemplatePath(SKILL_ROOT, 'README.md'), 'utf8');
 
-  assert.match(readme, /eight effects/i);
+  assert.match(readme, /nine effects/i);
   for (const ref of EXPECTED_REFS) assert.match(readme, new RegExp(`\\b${ref.replaceAll('.', '\\.')}`));
   assert.match(readme, /Use \$image-effects effect healing-anime-scribble-v3@1\.0\.0 on my uploaded image\./);
   assert.match(readme, /Use \$image-effects effect minimal-zine-poster@1\.0\.0 with this idea or my uploaded image\./);
@@ -231,7 +237,7 @@ test('English public README documents the complete standalone catalog contract',
 test('Chinese public README documents the complete standalone catalog contract', async () => {
   const readme = await readFile(publicTemplatePath(SKILL_ROOT, 'README_CN.md'), 'utf8');
 
-  assert.match(readme, /8 个效果/);
+  assert.match(readme, /9 个效果/);
   for (const ref of EXPECTED_REFS) assert.match(readme, new RegExp(`\\b${ref.replaceAll('.', '\\.')}`));
   assert.match(readme, /Use \$image-effects effect healing-anime-scribble-v3@1\.0\.0 on my uploaded image\./);
   assert.match(readme, /Use \$image-effects effect minimal-zine-poster@1\.0\.0 with this idea or my uploaded image\./);

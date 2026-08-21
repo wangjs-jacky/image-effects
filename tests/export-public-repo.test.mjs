@@ -41,6 +41,7 @@ const FIXED_REFS = [
   ["scene-distillation-zine@1.0.0", ".png"],
   ["scenes-gathered-zine@1.0.0", ".png"],
   ["scenes-gathered-zine-sea@1.0.0", ".png"],
+  ["torn-paper-editorial-photo-collage@1.0.0", ".jpg"],
 ];
 const LICENSE_NOTICE_NAMES = [
   "conardli-garden-skills-mit.txt",

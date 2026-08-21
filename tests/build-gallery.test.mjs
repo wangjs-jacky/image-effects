@@ -63,6 +63,7 @@ const FULL_CATALOG = [
   ['scene-distillation-zine@1.0.0', '.png'],
   ['scenes-gathered-zine@1.0.0', '.png'],
   ['scenes-gathered-zine-sea@1.0.0', '.png'],
+  ['torn-paper-editorial-photo-collage@1.0.0', '.jpg'],
 ];
 const FULL_CATALOG_REFS = FULL_CATALOG.map(([ref]) => ref);
 const FULL_MANAGED_PATHS = [
@@ -125,7 +126,7 @@ async function makeFixtureSource(root, sourceSha = SOURCE_SHA) {
   ]);
 }
 
-test('完整目录构建逐字节可复现并包含 8 个效果、真实尺寸与 4 份完整 notice', async () => {
+test('完整目录构建逐字节可复现并包含 9 个效果、真实尺寸与 4 份完整 notice', async () => {
   const outputOne = await mkdtemp(path.join(tmpdir(), 'image-effects-full-output-one-'));
   const outputTwo = await mkdtemp(path.join(tmpdir(), 'image-effects-full-output-two-'));
 

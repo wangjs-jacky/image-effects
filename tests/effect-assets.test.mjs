@@ -7,6 +7,7 @@ import test from 'node:test';
 import { fileURLToPath } from 'node:url';
 
 import { loadEffects, parseEffect } from '../scripts/effect-library.mjs';
+import { EXPECTED_CATALOG_REFS, MIGRATED_EFFECT_IDS } from './catalog-fixture.mjs';
 
 const SKILL_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SKILL_PATH = path.join(SKILL_ROOT, 'SKILL.md');
@@ -94,18 +95,6 @@ const EXPECTED_SECTIONS = [
   '硬性禁止项',
   '质量检查',
   '交付要求',
-];
-
-const EXPECTED_CATALOG_REFS = [
-  'healing-anime-scribble-v3@1.0.0',
-  'minimal-zine-poster@1.0.0',
-  'photo-illustration-diptych@1.0.0',
-  'photo-illustration-diptych-lakeside@1.0.0',
-  'photo-illustration-editorial-echo@1.0.0',
-  'scene-distillation-zine@1.0.0',
-  'scenes-gathered-zine@1.0.0',
-  'scenes-gathered-zine-sea@1.0.0',
-  'torn-paper-editorial-photo-collage@1.0.0',
 ];
 
 async function loadImageTools() {
@@ -317,6 +306,10 @@ test('完整目录的协议、来源许可证和预览字节均可独立验证',
   for (const effect of effects) {
     assert.doesNotMatch(effect.ref, /grade-images/i);
     assert.doesNotMatch(effect.body, /grade-images/i);
+    if (MIGRATED_EFFECT_IDS.includes(effect.id)) {
+      assert.doesNotMatch(effect.body, /dog|tiramisu|狗狗|提拉米苏/i);
+      assert.doesNotMatch(effect.previewProvenance.origin, /dog|tiramisu|狗狗|提拉米苏/i);
+    }
     assert.deepEqual(
       [...effect.body.matchAll(/^## (.+)$/gm)].map((match) => match[1]),
       EXPECTED_SECTIONS,
@@ -339,29 +332,6 @@ test('完整目录的协议、来源许可证和预览字节均可独立验证',
       `${effect.ref} preview mapping`,
     );
   }
-});
-
-test('撕纸编辑效果固定来源、可执行契约和防拟像质量门', async () => {
-  const effects = await loadEffects(EFFECTS_PATH);
-  const effect = effects.find(
-    ({ ref }) => ref === 'torn-paper-editorial-photo-collage@1.0.0',
-  );
-
-  assert.ok(effect);
-  assert.equal(effect.executionKind, 'host-image-generation');
-  assert.deepEqual(effect.input, {
-    mode: 'image',
-    min: 1,
-    max: 1,
-    formats: ['jpeg', 'png'],
-  });
-  assert.equal(effect.sourceRepository, 'wangjs-jacky/happy');
-  assert.equal(effect.sourceRevision, 'd1259c69fdc5494553f31b6736b640d597a89bfb');
-  assert.equal(effect.preview, 'assets/previews/torn-paper-editorial-photo-collage.jpg');
-  assert.match(effect.body, /45% to 65%/);
-  assert.match(effect.body, /exactly one broad opaque dry-brush swash/i);
-  assert.match(effect.body, /face-like pareidolia/i);
-  assert.match(effect.body, /host's native image-delivery path/i);
 });
 
 test('Scene Distillation 保留无预设的作者型 Typography Director', async () => {
@@ -450,6 +420,24 @@ test('Minimal Zine 保留固定来源的版式与字体变化能力', async () =
   assert.doesNotMatch(effect.body, /Keep it subordinate, legible/);
   assert.doesNotMatch(effect.body, /Add no metadata[\s\S]+second text block/);
   assert.doesNotMatch(effect.body, /large display copy|pseudo-text|signatures, watermarks/i);
+});
+
+test('撕纸编辑影像拼贴保留单图输入、核心构图与拟像检查', async () => {
+  const effects = await loadEffects(EFFECTS_PATH);
+  const effect = effects.find(
+    ({ ref }) => ref === 'torn-paper-editorial-photo-collage@1.0.0',
+  );
+
+  assert.ok(effect, 'missing Torn Paper Editorial Photo Collage card');
+  assert.equal(effect.executionKind, 'host-image-generation');
+  assert.deepEqual(effect.input, { mode: 'image', min: 1, max: 1, formats: ['jpeg', 'png'] });
+  assert.equal(effect.sourceRepository, 'wangjs-jacky/happy');
+  assert.equal(effect.sourceRevision, 'd1259c69fdc5494553f31b6736b640d597a89bfb');
+  assert.equal(effect.preview, 'assets/previews/torn-paper-editorial-photo-collage.jpg');
+  assert.match(effect.body, /45% to 65%/);
+  assert.match(effect.body, /exactly one broad opaque dry-brush swash/i);
+  assert.match(effect.body, /face-like pareidolia/i);
+  assert.match(effect.body, /host's native image-delivery path/i);
 });
 
 test('真实编码的干净 JPEG 和 PNG 可完整解码并通过元数据检查', async () => {
@@ -817,7 +805,7 @@ test('八张独立生成预览可完整解码、无禁止元数据且符合目�
     const previewPath = path.join(SKILL_ROOT, 'assets/previews', fileName);
     const buffer = await readFile(previewPath);
     const digest = createHash('sha256').update(buffer).digest('hex');
-    const expectedFormat = fileName.endsWith('.jpg') ? 'jpeg' : 'png';
+    const expectedFormat = path.extname(fileName) === '.jpg' ? 'jpeg' : 'png';
     const image = await assertMetadataFreeImage(buffer, expectedFormat);
 
     assert.match(digest, /^[0-9a-f]{64}$/, fileName);

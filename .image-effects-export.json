@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "wangjs-jacky/jacky-skills",
-  "sourceCommit": "f61d25d718d63195e6ea4992f25578375e784abd",
+  "sourceCommit": "87c8c11b8ca3315ec8febaacc64176c84dd9cd92",
   "files": [
     {
       "path": ".github/workflows/pages.yml",
@@ -17,11 +17,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "5c3414d2c7fa21206a49ddd13dc55e8131afcc85f31540524f1ecb5c6e4789bd"
+      "sha256": "766ca8fa27175bdcda9f78f69e99efa967cf728d6a6ddddcc41972097d530d07"
     },
     {
       "path": "README_CN.md",
-      "sha256": "fea8dada1e3caf15f339501dc8d89371e8334920b0f56afa16b73e6b8d8a5510"
+      "sha256": "c25086e903339649f4fa8d48c7fb3acc28a35b442a21000d725aa5879c45bf97"
     },
     {
       "path": "SKILL.md",
@@ -33,19 +33,115 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "88b827b747cfb427931873593b0c6dd971d8681048f06566cf80355fe7cb0486"
+      "sha256": "f288f1a308b6e0bedcd8f1a7311c0b3d58080bbb373795b28a036261e1e50471"
     },
     {
       "path": "agents/openai.yaml",
       "sha256": "a66dc5a7bf8c6ebb930305ca6a32de35f18eb349e348fb6350da240d3f45deca"
     },
     {
+      "path": "assets/previews/anime-key-visual.png",
+      "sha256": "76fcf6028948466581db58bf5831e1f181e7cc83bf6d3f040cd05de416764f99"
+    },
+    {
+      "path": "assets/previews/banner-grid-2x2.png",
+      "sha256": "295f842dd087c5cbe4faa2ee86793cfc2d771866454376667080b1f6e6f838a6"
+    },
+    {
+      "path": "assets/previews/banner-hero.png",
+      "sha256": "d10ab7a2c8544ac071d668d706ba931152e4e69f164fc3c2cca28a0cfb21e463"
+    },
+    {
+      "path": "assets/previews/bento-grid-infographic.png",
+      "sha256": "d2fb0b983020c435c648ef25ac915fac42794b4ba7f85d79aa77ab0e14d4e289"
+    },
+    {
+      "path": "assets/previews/bento-memory-card.png",
+      "sha256": "aaf7da2e44e13ef096baefb10936294aa19519fa9378e897cc667484e4b8c423"
+    },
+    {
+      "path": "assets/previews/brand-poster.png",
+      "sha256": "6e84041549b9a00ee411ebbbe30c515b19008873d785a9bea255b7d300ffb73c"
+    },
+    {
+      "path": "assets/previews/campaign-kv.png",
+      "sha256": "0be7d96ac2ba6828bd9ebae33da72b048997bcefc82270d082ac76df202a8004"
+    },
+    {
+      "path": "assets/previews/character-grid-portrait.png",
+      "sha256": "b19b3474496f59c839b0386a8df5388e9fd75a00c4261b9ad40cbb1d08b6891f"
+    },
+    {
+      "path": "assets/previews/character-merch-board.png",
+      "sha256": "6cf409e71427181440c06393e267df0d780cc02811000742caaddd17f514558b"
+    },
+    {
+      "path": "assets/previews/character-sheet.png",
+      "sha256": "ca4518d27168320efdcd8cca973c945d53c248781ca6c63c0aaab08602b4f3a5"
+    },
+    {
+      "path": "assets/previews/cinematic-storyboard.png",
+      "sha256": "dad5f745f598b6e52d9a6dc0754505d66c34c8433bcfcf4f65a83c052bce39fb"
+    },
+    {
+      "path": "assets/previews/concept-scene.png",
+      "sha256": "284cc6ea7724d2e0db492522efa531aa353223d6b681b451eb8d89bd1628ff5a"
+    },
+    {
+      "path": "assets/previews/editorial-cover.png",
+      "sha256": "0b98090c9d9d2524e539d06c59361184106716b09b8a962ddb803a82764c1028"
+    },
+    {
+      "path": "assets/previews/food-map.png",
+      "sha256": "a729bbfccc9c3a0de8683f333ca7b677b7bbb6c971e290b211be4312c633a897"
+    },
+    {
+      "path": "assets/previews/four-panel-comic.png",
+      "sha256": "c8ab2ae01e83f09ca58df658891fad1506873aa0c1a5d8d887cd41565533bfed"
+    },
+    {
+      "path": "assets/previews/hand-drawn-infographic.png",
+      "sha256": "4573c73d369a5175b1c8db225ec05795b935aa8fa7eff176e2c1d749e6b29c90"
+    },
+    {
       "path": "assets/previews/healing-anime-scribble-v3.jpg",
       "sha256": "70a3c534832532faed62cb80816df56002382cb661b51d2077d7eab429760daf"
     },
     {
+      "path": "assets/previews/healing-scene.png",
+      "sha256": "c62e7694485402a412e9a1d4e81eab3c33ff867b296a1e4b3ed0e35613eac0d6"
+    },
+    {
+      "path": "assets/previews/lifestyle-product-scene.png",
+      "sha256": "6b7d598116a77c7b31488fc245ce0d2da4dd7f00e3a1d4b3f69259e525b3752f"
+    },
+    {
+      "path": "assets/previews/lookbook-grid.png",
+      "sha256": "64434921ba8d70a32e761d7b6e92959cef988c0d85e02d48176bd7e1ec27ca7f"
+    },
+    {
+      "path": "assets/previews/manga-spread-page.png",
+      "sha256": "518aa09010356eb6f7110a7ad947c4151ff64a764a03dc78241559f0dca6d7e4"
+    },
+    {
+      "path": "assets/previews/mascot-brand-kit.png",
+      "sha256": "216be08bd6dec974ab1a434ba6e910566f9d192fea85c1367c116504ee1a619c"
+    },
+    {
       "path": "assets/previews/minimal-zine-poster.png",
       "sha256": "d7796377f564a40d0aaae89028afcfb12cad1aeaf5b2736ece69c4277e9b9781"
+    },
+    {
+      "path": "assets/previews/minimalist-mood-scene.png",
+      "sha256": "ac204dddbb8a8acf8b6147865624292685ff8f92f43c94cda99f42c189f40102"
+    },
+    {
+      "path": "assets/previews/mixed-style-multi-panel.png",
+      "sha256": "4cc2fdc20617ffa70c92fd5e0349fd14b95a6a08789a5150325cba9f322014a4"
+    },
+    {
+      "path": "assets/previews/packaging-showcase.png",
+      "sha256": "da0a558a3cf901198b3c28518813d2de34d9fece24e9f6ddca63f66523a1cd3b"
     },
     {
       "path": "assets/previews/photo-illustration-diptych-lakeside.png",
@@ -57,7 +153,27 @@
     },
     {
       "path": "assets/previews/photo-illustration-editorial-echo.png",
-      "sha256": "6d749c55f692bff9b6a7e2c0ec84545ee05fb6191abfd5eb07df7e6dde9cc990"
+      "sha256": "ed002f7dd4641a691ccec1f0ce3575fca6be85c26991cb5e75c745ea23aa9313"
+    },
+    {
+      "path": "assets/previews/picture-book-scene.png",
+      "sha256": "f3a2d3764f278974499eb3348b4cb0841dc9962594434525e35289d06705c497"
+    },
+    {
+      "path": "assets/previews/premium-studio-product.png",
+      "sha256": "a3e55123fa76d1254c94111e5c5d181624648a93da047c90912ef7497139b871"
+    },
+    {
+      "path": "assets/previews/product-tvc-storyboard.png",
+      "sha256": "7e9c456edab916e0b09ffcda4cb5605c2e5394d329d572ef806d52082a2037c3"
+    },
+    {
+      "path": "assets/previews/recipe-process-flowchart.png",
+      "sha256": "306b3700e582ac958090b468aed5c3a7f076ece4a9563372cd5bc3563d16a7ae"
+    },
+    {
+      "path": "assets/previews/retro-skeuomorphic-icons.png",
+      "sha256": "55fa95d124b6fa763debb81894f3847d111ed1d514118bad2a55acc12ba311aa"
     },
     {
       "path": "assets/previews/scene-distillation-zine.png",
@@ -72,8 +188,36 @@
       "sha256": "90bb7eff0da5834cae23ce87d16c8a85a6e9ec581bb00135b8b83b885ea948c1"
     },
     {
+      "path": "assets/previews/step-by-step-infographic.png",
+      "sha256": "709701cc576d7ff7d4918dd7e0a295e6f37fc6f64898214dacf945b1638dd9c1"
+    },
+    {
+      "path": "assets/previews/sticker-set.png",
+      "sha256": "3f2282bf7c3dece35d75c2dea475ee1e85c79c6bd8aaa96ef8b4feeef3e3307c"
+    },
+    {
+      "path": "assets/previews/themed-3d-icon.png",
+      "sha256": "d6a672dfd332240234e2a3095d5fd5d6a53903b768d2d50a7461b57b28461e5e"
+    },
+    {
+      "path": "assets/previews/torn-paper-editorial-photo-collage.jpg",
+      "sha256": "00ca63d6545a9f0a96bcf512c3869f7cf7cbd4e5d0eb40b2dbf79cc8373cb207"
+    },
+    {
+      "path": "assets/previews/vintage-editorial-infographic.png",
+      "sha256": "0265dd1bea1694a53530232684635dae776b07a3f10b448a8f5a3618b128c997"
+    },
+    {
+      "path": "assets/previews/vintage-film-editorial.png",
+      "sha256": "96715e7d0b238f31f6859fd71a2eb5c8fee5c6d1108556d27a0408ee8d8b2ac1"
+    },
+    {
+      "path": "assets/previews/white-background-product.png",
+      "sha256": "65b9e7d4794d46da92875e46b5e6c0fb89e99bd531d0952597bd31509cf81922"
+    },
+    {
       "path": "gallery/api/library.json",
-      "sha256": "49f2e7b96564df8cff6a236f7132b0c4d284d928c29623e10c969cced9050584"
+      "sha256": "166dea655e4917ec0e9f62fc940d4705ad4d229f5b999787beb4264382e36be2"
     },
     {
       "path": "gallery/app.js",
@@ -81,7 +225,7 @@
     },
     {
       "path": "gallery/gallery-model.mjs",
-      "sha256": "fef1ccb441521d831725a0ed8c7cae2850c841a45fea0cce07eb51767178a211"
+      "sha256": "5b5bd3a200590bf9ba48753ca9a5ca1d8c11a26f603e3f033db41a2f511ace76"
     },
     {
       "path": "gallery/gallery-runtime.mjs",
@@ -92,12 +236,108 @@
       "sha256": "10520a681fc83e759474a6382a1bc9b5aeb3500a2ff8f2467dbbf663bbdd938c"
     },
     {
+      "path": "gallery/media/anime-key-visual@1.0.0.png",
+      "sha256": "76fcf6028948466581db58bf5831e1f181e7cc83bf6d3f040cd05de416764f99"
+    },
+    {
+      "path": "gallery/media/banner-grid-2x2@1.0.0.png",
+      "sha256": "295f842dd087c5cbe4faa2ee86793cfc2d771866454376667080b1f6e6f838a6"
+    },
+    {
+      "path": "gallery/media/banner-hero@1.0.0.png",
+      "sha256": "d10ab7a2c8544ac071d668d706ba931152e4e69f164fc3c2cca28a0cfb21e463"
+    },
+    {
+      "path": "gallery/media/bento-grid-infographic@1.0.0.png",
+      "sha256": "d2fb0b983020c435c648ef25ac915fac42794b4ba7f85d79aa77ab0e14d4e289"
+    },
+    {
+      "path": "gallery/media/bento-memory-card@1.0.0.png",
+      "sha256": "aaf7da2e44e13ef096baefb10936294aa19519fa9378e897cc667484e4b8c423"
+    },
+    {
+      "path": "gallery/media/brand-poster@1.0.0.png",
+      "sha256": "6e84041549b9a00ee411ebbbe30c515b19008873d785a9bea255b7d300ffb73c"
+    },
+    {
+      "path": "gallery/media/campaign-kv@1.0.0.png",
+      "sha256": "0be7d96ac2ba6828bd9ebae33da72b048997bcefc82270d082ac76df202a8004"
+    },
+    {
+      "path": "gallery/media/character-grid-portrait@1.0.0.png",
+      "sha256": "b19b3474496f59c839b0386a8df5388e9fd75a00c4261b9ad40cbb1d08b6891f"
+    },
+    {
+      "path": "gallery/media/character-merch-board@1.0.0.png",
+      "sha256": "6cf409e71427181440c06393e267df0d780cc02811000742caaddd17f514558b"
+    },
+    {
+      "path": "gallery/media/character-sheet@1.0.0.png",
+      "sha256": "ca4518d27168320efdcd8cca973c945d53c248781ca6c63c0aaab08602b4f3a5"
+    },
+    {
+      "path": "gallery/media/cinematic-storyboard@1.0.0.png",
+      "sha256": "dad5f745f598b6e52d9a6dc0754505d66c34c8433bcfcf4f65a83c052bce39fb"
+    },
+    {
+      "path": "gallery/media/concept-scene@1.0.0.png",
+      "sha256": "284cc6ea7724d2e0db492522efa531aa353223d6b681b451eb8d89bd1628ff5a"
+    },
+    {
+      "path": "gallery/media/editorial-cover@1.0.0.png",
+      "sha256": "0b98090c9d9d2524e539d06c59361184106716b09b8a962ddb803a82764c1028"
+    },
+    {
+      "path": "gallery/media/food-map@1.0.0.png",
+      "sha256": "a729bbfccc9c3a0de8683f333ca7b677b7bbb6c971e290b211be4312c633a897"
+    },
+    {
+      "path": "gallery/media/four-panel-comic@1.0.0.png",
+      "sha256": "c8ab2ae01e83f09ca58df658891fad1506873aa0c1a5d8d887cd41565533bfed"
+    },
+    {
+      "path": "gallery/media/hand-drawn-infographic@1.0.0.png",
+      "sha256": "4573c73d369a5175b1c8db225ec05795b935aa8fa7eff176e2c1d749e6b29c90"
+    },
+    {
       "path": "gallery/media/healing-anime-scribble-v3@1.0.0.jpg",
       "sha256": "70a3c534832532faed62cb80816df56002382cb661b51d2077d7eab429760daf"
     },
     {
+      "path": "gallery/media/healing-scene@1.0.0.png",
+      "sha256": "c62e7694485402a412e9a1d4e81eab3c33ff867b296a1e4b3ed0e35613eac0d6"
+    },
+    {
+      "path": "gallery/media/lifestyle-product-scene@1.0.0.png",
+      "sha256": "6b7d598116a77c7b31488fc245ce0d2da4dd7f00e3a1d4b3f69259e525b3752f"
+    },
+    {
+      "path": "gallery/media/lookbook-grid@1.0.0.png",
+      "sha256": "64434921ba8d70a32e761d7b6e92959cef988c0d85e02d48176bd7e1ec27ca7f"
+    },
+    {
+      "path": "gallery/media/manga-spread-page@1.0.0.png",
+      "sha256": "518aa09010356eb6f7110a7ad947c4151ff64a764a03dc78241559f0dca6d7e4"
+    },
+    {
+      "path": "gallery/media/mascot-brand-kit@1.0.0.png",
+      "sha256": "216be08bd6dec974ab1a434ba6e910566f9d192fea85c1367c116504ee1a619c"
+    },
+    {
       "path": "gallery/media/minimal-zine-poster@1.0.0.png",
       "sha256": "d7796377f564a40d0aaae89028afcfb12cad1aeaf5b2736ece69c4277e9b9781"
+    },
+    {
+      "path": "gallery/media/minimalist-mood-scene@1.0.0.png",
+      "sha256": "ac204dddbb8a8acf8b6147865624292685ff8f92f43c94cda99f42c189f40102"
+    },
+    {
+      "path": "gallery/media/mixed-style-multi-panel@1.0.0.png",
+      "sha256": "4cc2fdc20617ffa70c92fd5e0349fd14b95a6a08789a5150325cba9f322014a4"
+    },
+    {
+      "path": "gallery/media/packaging-showcase@1.0.0.png",
+      "sha256": "da0a558a3cf901198b3c28518813d2de34d9fece24e9f6ddca63f66523a1cd3b"
     },
     {
       "path": "gallery/media/photo-illustration-diptych-lakeside@1.0.0.png",
@@ -109,7 +349,27 @@
     },
     {
       "path": "gallery/media/photo-illustration-editorial-echo@1.0.0.png",
-      "sha256": "6d749c55f692bff9b6a7e2c0ec84545ee05fb6191abfd5eb07df7e6dde9cc990"
+      "sha256": "ed002f7dd4641a691ccec1f0ce3575fca6be85c26991cb5e75c745ea23aa9313"
+    },
+    {
+      "path": "gallery/media/picture-book-scene@1.0.0.png",
+      "sha256": "f3a2d3764f278974499eb3348b4cb0841dc9962594434525e35289d06705c497"
+    },
+    {
+      "path": "gallery/media/premium-studio-product@1.0.0.png",
+      "sha256": "a3e55123fa76d1254c94111e5c5d181624648a93da047c90912ef7497139b871"
+    },
+    {
+      "path": "gallery/media/product-tvc-storyboard@1.0.0.png",
+      "sha256": "7e9c456edab916e0b09ffcda4cb5605c2e5394d329d572ef806d52082a2037c3"
+    },
+    {
+      "path": "gallery/media/recipe-process-flowchart@1.0.0.png",
+      "sha256": "306b3700e582ac958090b468aed5c3a7f076ece4a9563372cd5bc3563d16a7ae"
+    },
+    {
+      "path": "gallery/media/retro-skeuomorphic-icons@1.0.0.png",
+      "sha256": "55fa95d124b6fa763debb81894f3847d111ed1d514118bad2a55acc12ba311aa"
     },
     {
       "path": "gallery/media/scene-distillation-zine@1.0.0.png",
@@ -124,12 +384,136 @@
       "sha256": "90bb7eff0da5834cae23ce87d16c8a85a6e9ec581bb00135b8b83b885ea948c1"
     },
     {
+      "path": "gallery/media/step-by-step-infographic@1.0.0.png",
+      "sha256": "709701cc576d7ff7d4918dd7e0a295e6f37fc6f64898214dacf945b1638dd9c1"
+    },
+    {
+      "path": "gallery/media/sticker-set@1.0.0.png",
+      "sha256": "3f2282bf7c3dece35d75c2dea475ee1e85c79c6bd8aaa96ef8b4feeef3e3307c"
+    },
+    {
+      "path": "gallery/media/themed-3d-icon@1.0.0.png",
+      "sha256": "d6a672dfd332240234e2a3095d5fd5d6a53903b768d2d50a7461b57b28461e5e"
+    },
+    {
+      "path": "gallery/media/torn-paper-editorial-photo-collage@1.0.0.jpg",
+      "sha256": "00ca63d6545a9f0a96bcf512c3869f7cf7cbd4e5d0eb40b2dbf79cc8373cb207"
+    },
+    {
+      "path": "gallery/media/vintage-editorial-infographic@1.0.0.png",
+      "sha256": "0265dd1bea1694a53530232684635dae776b07a3f10b448a8f5a3618b128c997"
+    },
+    {
+      "path": "gallery/media/vintage-film-editorial@1.0.0.png",
+      "sha256": "96715e7d0b238f31f6859fd71a2eb5c8fee5c6d1108556d27a0408ee8d8b2ac1"
+    },
+    {
+      "path": "gallery/media/white-background-product@1.0.0.png",
+      "sha256": "65b9e7d4794d46da92875e46b5e6c0fb89e99bd531d0952597bd31509cf81922"
+    },
+    {
+      "path": "gallery/source/anime-key-visual@1.0.0.md",
+      "sha256": "6c38fe996875be8c6f663ab142f1c1d9f7d4a5fe05e2f9442f6f170c4975a360"
+    },
+    {
+      "path": "gallery/source/banner-grid-2x2@1.0.0.md",
+      "sha256": "43d96e5111cfd06bd3074de45204005bb9df17b4c093a20888b7692ac943c6e9"
+    },
+    {
+      "path": "gallery/source/banner-hero@1.0.0.md",
+      "sha256": "7485041f4791f705d0f70adc9ae17c82bf949df8d9eec3dd39900f49525082df"
+    },
+    {
+      "path": "gallery/source/bento-grid-infographic@1.0.0.md",
+      "sha256": "1f0d5103e840c274a23052a8be6f3a20aba7f77eccef214cdecfdfb44bdfd308"
+    },
+    {
+      "path": "gallery/source/bento-memory-card@1.0.0.md",
+      "sha256": "34eefc4c6f98ca65c59f06d216968bb430bfde134d9628ed4d382e905993d46d"
+    },
+    {
+      "path": "gallery/source/brand-poster@1.0.0.md",
+      "sha256": "9327c925c794c41c450d9bdcb5475c772c76f98302d9abc6a04aae9b1da2cd3c"
+    },
+    {
+      "path": "gallery/source/campaign-kv@1.0.0.md",
+      "sha256": "9b41c30fa9f67710ad5872843c97ae21d2091c18945567af12bff35b2f406c73"
+    },
+    {
+      "path": "gallery/source/character-grid-portrait@1.0.0.md",
+      "sha256": "69f4e8a2010211e14e22073456ce3b3819e496c33a60527630031609fce2dd92"
+    },
+    {
+      "path": "gallery/source/character-merch-board@1.0.0.md",
+      "sha256": "15fe76efbe1fa0329d2df9f1dcdff574473c0dace0722ea72cbe7438578caaa6"
+    },
+    {
+      "path": "gallery/source/character-sheet@1.0.0.md",
+      "sha256": "5e3224de1caf6880c5f9c616129ece2b0505696cdeb16f31324207691a6d864a"
+    },
+    {
+      "path": "gallery/source/cinematic-storyboard@1.0.0.md",
+      "sha256": "911cd8443f83bc5e068be48cfbc2bd12688cf7263526e56076e2b4f5ae211d84"
+    },
+    {
+      "path": "gallery/source/concept-scene@1.0.0.md",
+      "sha256": "40bfd0348ad454d0664a346a730ede7b7d59a9d088cedb89a6ad5b98af6357ac"
+    },
+    {
+      "path": "gallery/source/editorial-cover@1.0.0.md",
+      "sha256": "e23f7eb80c0a45574cbd735dc735b9c77c22f60dc66d557e952e6059c0cf4390"
+    },
+    {
+      "path": "gallery/source/food-map@1.0.0.md",
+      "sha256": "56d69d6c2a462cfe34a89e7b24259b53af6fe0f1b3875fd723c3defcc5b2c73b"
+    },
+    {
+      "path": "gallery/source/four-panel-comic@1.0.0.md",
+      "sha256": "2ce66f842774625ef9e9804a4edb3e8d63d481ddc97c080785d5d6a36dce4bc4"
+    },
+    {
+      "path": "gallery/source/hand-drawn-infographic@1.0.0.md",
+      "sha256": "b02352f4d8ac710d1bf1d5dce0e864d9a4ac90ae7fa8ae129b990aaffc8c0fc5"
+    },
+    {
       "path": "gallery/source/healing-anime-scribble-v3@1.0.0.md",
       "sha256": "382b37fb1f23bbc2a4922b93dc7dc8e097d374989742096e15638d9ad9d8fb4e"
     },
     {
+      "path": "gallery/source/healing-scene@1.0.0.md",
+      "sha256": "97bdb5bce313779d09a93811a7b7130d978665f018a065b4ef10fe59bfa0bc59"
+    },
+    {
+      "path": "gallery/source/lifestyle-product-scene@1.0.0.md",
+      "sha256": "c5f6efdad2662dbcf062e2f44aa5b10186fb0f0c63d598be2cbaa8b66905387a"
+    },
+    {
+      "path": "gallery/source/lookbook-grid@1.0.0.md",
+      "sha256": "2033c6a39c087f02e995e5b64f4fbb740be5f65adc4d84c6d132ed3cb5c1d775"
+    },
+    {
+      "path": "gallery/source/manga-spread-page@1.0.0.md",
+      "sha256": "d80c15ac61523873a25a547a60f2bcf631ebbad27bb587e16df43b6f08ac5ed1"
+    },
+    {
+      "path": "gallery/source/mascot-brand-kit@1.0.0.md",
+      "sha256": "fb2a7cbd6cca10834fba44d6c537a779dfb8c87eca0e1a3682c5458b3f5c0f67"
+    },
+    {
       "path": "gallery/source/minimal-zine-poster@1.0.0.md",
       "sha256": "10c3e970271e815b2bf080e9cf2fc809f1c2152da0bed845ce1f386ac1130f21"
+    },
+    {
+      "path": "gallery/source/minimalist-mood-scene@1.0.0.md",
+      "sha256": "12cad703a24c4879bc1ab1509b96642fa552f6650ca424fa35bd1985f528158c"
+    },
+    {
+      "path": "gallery/source/mixed-style-multi-panel@1.0.0.md",
+      "sha256": "124a930e7536120fed636ab9dc984453dafc28dd21b8769630871110526bf8b5"
+    },
+    {
+      "path": "gallery/source/packaging-showcase@1.0.0.md",
+      "sha256": "fb03d4744117498bbbd11bc6ca5d2b0c77138c18cf338c98c9dace6f32e68045"
     },
     {
       "path": "gallery/source/photo-illustration-diptych-lakeside@1.0.0.md",
@@ -141,7 +525,27 @@
     },
     {
       "path": "gallery/source/photo-illustration-editorial-echo@1.0.0.md",
-      "sha256": "2985ca3912c4fdec63399e367b6b9eb0885d4b669752f4af0cef2563623bd06c"
+      "sha256": "04e7d17ec4ed0f805058b8578c5c375e3e5729ecad0910b6d5a5d28d1f2d2141"
+    },
+    {
+      "path": "gallery/source/picture-book-scene@1.0.0.md",
+      "sha256": "7b973d31d777d76f17cb9c5213dc5e36ae4d8a2c020d2b922b0ebb90db86f4ad"
+    },
+    {
+      "path": "gallery/source/premium-studio-product@1.0.0.md",
+      "sha256": "e464a4fafba7bb8976f87e827069c690d0caaf91c35eac6a0b64f4de9b978597"
+    },
+    {
+      "path": "gallery/source/product-tvc-storyboard@1.0.0.md",
+      "sha256": "410c2cbd8568101a0ac1348fe55959131ac842c1610673c4c6395b6e9a04b683"
+    },
+    {
+      "path": "gallery/source/recipe-process-flowchart@1.0.0.md",
+      "sha256": "9b8a892375513205f6029392f09341c746d113886393543a14ddb53ea8e9dc3f"
+    },
+    {
+      "path": "gallery/source/retro-skeuomorphic-icons@1.0.0.md",
+      "sha256": "dc49d90a67ac3d4fe78e168b5d2161f418624122e8f9a9149154c0a00c4dd2ec"
     },
     {
       "path": "gallery/source/scene-distillation-zine@1.0.0.md",
@@ -156,12 +560,40 @@
       "sha256": "f71f7b60114b2e9d8c36caca8c2143e6d8ff9cd778281341b1aa24746539ffbf"
     },
     {
+      "path": "gallery/source/step-by-step-infographic@1.0.0.md",
+      "sha256": "d51f3881728ad282ea349bb21c5496aa91119cc8154eae5da9ba213664c3c130"
+    },
+    {
+      "path": "gallery/source/sticker-set@1.0.0.md",
+      "sha256": "86332528adba44221a976fad5a86f6af6d40870c461f56128dc4169174d0c003"
+    },
+    {
+      "path": "gallery/source/themed-3d-icon@1.0.0.md",
+      "sha256": "8e754a0ee01b566bcd6a8447819669d331bf588e4559b7bd73c68df8fc59e3a9"
+    },
+    {
+      "path": "gallery/source/torn-paper-editorial-photo-collage@1.0.0.md",
+      "sha256": "aff8ccc10f766f9c9d43667d4c2b625371ae8e38b00bd45ed56ddd7f5b09f91e"
+    },
+    {
+      "path": "gallery/source/vintage-editorial-infographic@1.0.0.md",
+      "sha256": "ff1dc6db264b3481249d532139c7b253e32acf93becf49e0d1d0cfd6fa25b2da"
+    },
+    {
+      "path": "gallery/source/vintage-film-editorial@1.0.0.md",
+      "sha256": "6be04cd24388231dc1fbd84831976500d738b67275c94fc1c01c80627858037b"
+    },
+    {
+      "path": "gallery/source/white-background-product@1.0.0.md",
+      "sha256": "c8938f26caf15720251ca37782435b3e183299a8548bbfbcdca1932531e4ecf9"
+    },
+    {
       "path": "gallery/styles.css",
       "sha256": "4138890c9495833a8c822056f4a02964ea7efc667ca7022fcb6f303e963708ba"
     },
     {
       "path": "gallery/translations.js",
-      "sha256": "a02c39857fab203211c42d9b29dea13a3239c0be26def4cf0b57a0614d897d6e"
+      "sha256": "8f90960ab8e927383e09714f88bc61e1d4be55ffad17b4f93159af4c9a28012b"
     },
     {
       "path": "package-lock.json",
@@ -173,15 +605,111 @@
     },
     {
       "path": "references/INDEX.md",
-      "sha256": "edd9f8adb60bd0cc794e222d37197e9bd3185eed0376a6d56a5f0c8299df70f5"
+      "sha256": "4a0385f3586159b79d17ff5425d09bef255d707c44d7334ef85edffdf68927a1"
+    },
+    {
+      "path": "references/effects/anime-key-visual.md",
+      "sha256": "6c38fe996875be8c6f663ab142f1c1d9f7d4a5fe05e2f9442f6f170c4975a360"
+    },
+    {
+      "path": "references/effects/banner-grid-2x2.md",
+      "sha256": "43d96e5111cfd06bd3074de45204005bb9df17b4c093a20888b7692ac943c6e9"
+    },
+    {
+      "path": "references/effects/banner-hero.md",
+      "sha256": "7485041f4791f705d0f70adc9ae17c82bf949df8d9eec3dd39900f49525082df"
+    },
+    {
+      "path": "references/effects/bento-grid-infographic.md",
+      "sha256": "1f0d5103e840c274a23052a8be6f3a20aba7f77eccef214cdecfdfb44bdfd308"
+    },
+    {
+      "path": "references/effects/bento-memory-card.md",
+      "sha256": "34eefc4c6f98ca65c59f06d216968bb430bfde134d9628ed4d382e905993d46d"
+    },
+    {
+      "path": "references/effects/brand-poster.md",
+      "sha256": "9327c925c794c41c450d9bdcb5475c772c76f98302d9abc6a04aae9b1da2cd3c"
+    },
+    {
+      "path": "references/effects/campaign-kv.md",
+      "sha256": "9b41c30fa9f67710ad5872843c97ae21d2091c18945567af12bff35b2f406c73"
+    },
+    {
+      "path": "references/effects/character-grid-portrait.md",
+      "sha256": "69f4e8a2010211e14e22073456ce3b3819e496c33a60527630031609fce2dd92"
+    },
+    {
+      "path": "references/effects/character-merch-board.md",
+      "sha256": "15fe76efbe1fa0329d2df9f1dcdff574473c0dace0722ea72cbe7438578caaa6"
+    },
+    {
+      "path": "references/effects/character-sheet.md",
+      "sha256": "5e3224de1caf6880c5f9c616129ece2b0505696cdeb16f31324207691a6d864a"
+    },
+    {
+      "path": "references/effects/cinematic-storyboard.md",
+      "sha256": "911cd8443f83bc5e068be48cfbc2bd12688cf7263526e56076e2b4f5ae211d84"
+    },
+    {
+      "path": "references/effects/concept-scene.md",
+      "sha256": "40bfd0348ad454d0664a346a730ede7b7d59a9d088cedb89a6ad5b98af6357ac"
+    },
+    {
+      "path": "references/effects/editorial-cover.md",
+      "sha256": "e23f7eb80c0a45574cbd735dc735b9c77c22f60dc66d557e952e6059c0cf4390"
+    },
+    {
+      "path": "references/effects/food-map.md",
+      "sha256": "56d69d6c2a462cfe34a89e7b24259b53af6fe0f1b3875fd723c3defcc5b2c73b"
+    },
+    {
+      "path": "references/effects/four-panel-comic.md",
+      "sha256": "2ce66f842774625ef9e9804a4edb3e8d63d481ddc97c080785d5d6a36dce4bc4"
+    },
+    {
+      "path": "references/effects/hand-drawn-infographic.md",
+      "sha256": "b02352f4d8ac710d1bf1d5dce0e864d9a4ac90ae7fa8ae129b990aaffc8c0fc5"
     },
     {
       "path": "references/effects/healing-anime-scribble-v3.md",
       "sha256": "382b37fb1f23bbc2a4922b93dc7dc8e097d374989742096e15638d9ad9d8fb4e"
     },
     {
+      "path": "references/effects/healing-scene.md",
+      "sha256": "97bdb5bce313779d09a93811a7b7130d978665f018a065b4ef10fe59bfa0bc59"
+    },
+    {
+      "path": "references/effects/lifestyle-product-scene.md",
+      "sha256": "c5f6efdad2662dbcf062e2f44aa5b10186fb0f0c63d598be2cbaa8b66905387a"
+    },
+    {
+      "path": "references/effects/lookbook-grid.md",
+      "sha256": "2033c6a39c087f02e995e5b64f4fbb740be5f65adc4d84c6d132ed3cb5c1d775"
+    },
+    {
+      "path": "references/effects/manga-spread-page.md",
+      "sha256": "d80c15ac61523873a25a547a60f2bcf631ebbad27bb587e16df43b6f08ac5ed1"
+    },
+    {
+      "path": "references/effects/mascot-brand-kit.md",
+      "sha256": "fb2a7cbd6cca10834fba44d6c537a779dfb8c87eca0e1a3682c5458b3f5c0f67"
+    },
+    {
       "path": "references/effects/minimal-zine-poster.md",
       "sha256": "10c3e970271e815b2bf080e9cf2fc809f1c2152da0bed845ce1f386ac1130f21"
+    },
+    {
+      "path": "references/effects/minimalist-mood-scene.md",
+      "sha256": "12cad703a24c4879bc1ab1509b96642fa552f6650ca424fa35bd1985f528158c"
+    },
+    {
+      "path": "references/effects/mixed-style-multi-panel.md",
+      "sha256": "124a930e7536120fed636ab9dc984453dafc28dd21b8769630871110526bf8b5"
+    },
+    {
+      "path": "references/effects/packaging-showcase.md",
+      "sha256": "fb03d4744117498bbbd11bc6ca5d2b0c77138c18cf338c98c9dace6f32e68045"
     },
     {
       "path": "references/effects/photo-illustration-diptych-lakeside.md",
@@ -193,7 +721,27 @@
     },
     {
       "path": "references/effects/photo-illustration-editorial-echo.md",
-      "sha256": "2985ca3912c4fdec63399e367b6b9eb0885d4b669752f4af0cef2563623bd06c"
+      "sha256": "04e7d17ec4ed0f805058b8578c5c375e3e5729ecad0910b6d5a5d28d1f2d2141"
+    },
+    {
+      "path": "references/effects/picture-book-scene.md",
+      "sha256": "7b973d31d777d76f17cb9c5213dc5e36ae4d8a2c020d2b922b0ebb90db86f4ad"
+    },
+    {
+      "path": "references/effects/premium-studio-product.md",
+      "sha256": "e464a4fafba7bb8976f87e827069c690d0caaf91c35eac6a0b64f4de9b978597"
+    },
+    {
+      "path": "references/effects/product-tvc-storyboard.md",
+      "sha256": "410c2cbd8568101a0ac1348fe55959131ac842c1610673c4c6395b6e9a04b683"
+    },
+    {
+      "path": "references/effects/recipe-process-flowchart.md",
+      "sha256": "9b8a892375513205f6029392f09341c746d113886393543a14ddb53ea8e9dc3f"
+    },
+    {
+      "path": "references/effects/retro-skeuomorphic-icons.md",
+      "sha256": "dc49d90a67ac3d4fe78e168b5d2161f418624122e8f9a9149154c0a00c4dd2ec"
     },
     {
       "path": "references/effects/scene-distillation-zine.md",
@@ -206,6 +754,34 @@
     {
       "path": "references/effects/scenes-gathered-zine.md",
       "sha256": "f71f7b60114b2e9d8c36caca8c2143e6d8ff9cd778281341b1aa24746539ffbf"
+    },
+    {
+      "path": "references/effects/step-by-step-infographic.md",
+      "sha256": "d51f3881728ad282ea349bb21c5496aa91119cc8154eae5da9ba213664c3c130"
+    },
+    {
+      "path": "references/effects/sticker-set.md",
+      "sha256": "86332528adba44221a976fad5a86f6af6d40870c461f56128dc4169174d0c003"
+    },
+    {
+      "path": "references/effects/themed-3d-icon.md",
+      "sha256": "8e754a0ee01b566bcd6a8447819669d331bf588e4559b7bd73c68df8fc59e3a9"
+    },
+    {
+      "path": "references/effects/torn-paper-editorial-photo-collage.md",
+      "sha256": "aff8ccc10f766f9c9d43667d4c2b625371ae8e38b00bd45ed56ddd7f5b09f91e"
+    },
+    {
+      "path": "references/effects/vintage-editorial-infographic.md",
+      "sha256": "ff1dc6db264b3481249d532139c7b253e32acf93becf49e0d1d0cfd6fa25b2da"
+    },
+    {
+      "path": "references/effects/vintage-film-editorial.md",
+      "sha256": "6be04cd24388231dc1fbd84831976500d738b67275c94fc1c01c80627858037b"
+    },
+    {
+      "path": "references/effects/white-background-product.md",
+      "sha256": "c8938f26caf15720251ca37782435b3e183299a8548bbfbcdca1932531e4ecf9"
     },
     {
       "path": "references/licenses/conardli-garden-skills-mit.txt",
@@ -229,7 +805,7 @@
     },
     {
       "path": "scripts/effect-library.mjs",
-      "sha256": "150cea410fb5922910420ec2fc10d3c02cbe2825e2c39e0e5ba0293955638eeb"
+      "sha256": "3372dea642b38031b5d8fde9094454a7a5352fd998d7a447a04fd4950f0b9e79"
     },
     {
       "path": "scripts/export-public-repo.mjs",
@@ -245,27 +821,31 @@
     },
     {
       "path": "scripts/validate-effects.mjs",
-      "sha256": "cc2675d57bfc768437a1801e383232ce44dc680bef4f09fcbf404b189ff81c3c"
+      "sha256": "8b60a538da274dd12239fb5b5f59d3c358b8ce62cd0a6dd30b669eb38f2cea23"
     },
     {
       "path": "tests/build-gallery.test.mjs",
-      "sha256": "f71f9627eedbe86e93afe60c77b9ba0937660a96fdda864ca0391da1ffcbff53"
+      "sha256": "eda078e3aaddc4d17091fd8f0f4f96d5ff004949a070bcd297a7a11c9aea92ed"
+    },
+    {
+      "path": "tests/catalog-fixture.mjs",
+      "sha256": "be55580fbe09cde2a0c97b848477f2a70edae300a1e5babc6f3e2fd9e0bc5321"
     },
     {
       "path": "tests/effect-assets.test.mjs",
-      "sha256": "56b9ef095f8a13a5fd6dcfcc8eb7a9173af6b7c3cec9f92f85b9fa7daa57215c"
+      "sha256": "899eb21973681944753f61f4b75d98e908ae6d376bc29287dcca68bee004cf0d"
     },
     {
       "path": "tests/effect-library.test.mjs",
-      "sha256": "f6eb03c07a52347fc4eb63eb6eb6abd8d3c3f285b4c735c6061e8b7d73924c2b"
+      "sha256": "fbc64c93a83155baeba807f1d06be2ca3eae593f50214d6f9e7a4f27a2632146"
     },
     {
       "path": "tests/export-public-repo.test.mjs",
-      "sha256": "a8d36549481f81c82934233a0ad31becd0ed0b74188666acdb3b5e762024679d"
+      "sha256": "a8efb6231958c87e0f003529fb99c99078cec0e828525c67127192c1f06771aa"
     },
     {
       "path": "tests/gallery-assets.test.mjs",
-      "sha256": "308723794c8925f26a19e2236acf469a7ff6684b5e1670bc763b17fda6d9b535"
+      "sha256": "74eb8ffb301ae5c938d1c6826ebde3c2b468677ee8bfe22763001087ec09be63"
     },
     {
       "path": "tests/gallery-model.test.mjs",

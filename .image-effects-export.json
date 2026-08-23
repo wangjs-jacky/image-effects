@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "wangjs-jacky/jacky-skills",
-  "sourceCommit": "87c8c11b8ca3315ec8febaacc64176c84dd9cd92",
+  "sourceCommit": "c3e29538494591130fb9b3de34c0eca80e4f2bbf",
   "files": [
     {
       "path": ".github/workflows/pages.yml",
-      "sha256": "6049bfbb94975d199ab940ba6802dae660b39ecb9f5071ee66afa7ab793035f8"
+      "sha256": "71b83316d89529a368e2cfe8802075db828c5a451369e0a96ee39ea7d9f45f3f"
     },
     {
       "path": ".gitignore",
-      "sha256": "17e66b0ee14dc8667e204a0e6c8c9157cc670578ab8b74b84fc871fa62e250c5"
+      "sha256": "5f740d438d95d73207f75995ee470bb90db5ef6ecca733baef891424f200e09f"
     },
     {
       "path": "LICENSE",
@@ -29,11 +29,11 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.header.md",
-      "sha256": "73346c535e3458132c9137684951b9bd59505dddc29c2772ed59ddb87a811cd7"
+      "sha256": "16ca64864d5484fe9d82412135b69164ea9f4646688136ec77e6a5f4d2b4a75c"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "f288f1a308b6e0bedcd8f1a7311c0b3d58080bbb373795b28a036261e1e50471"
+      "sha256": "617dd4e3560b53b24048becf611f00c096ca851bd5175cb45592d117d5cea1ae"
     },
     {
       "path": "agents/openai.yaml",
@@ -220,12 +220,12 @@
       "sha256": "166dea655e4917ec0e9f62fc940d4705ad4d229f5b999787beb4264382e36be2"
     },
     {
-      "path": "gallery/app.js",
-      "sha256": "5ab063a2db4c92470a9fe714eaf937ac264d8cdc272bac284dd1469c8d8c6d07"
+      "path": "gallery/gallery-config.mjs",
+      "sha256": "68755c68e03edbf58e0ccddefaacbd2fb0a97e607514d49b22533f8ea12ac685"
     },
     {
       "path": "gallery/gallery-model.mjs",
-      "sha256": "5b5bd3a200590bf9ba48753ca9a5ca1d8c11a26f603e3f033db41a2f511ace76"
+      "sha256": "f8bda46fd5689cf30aaaf3c4e02c95698ed13fa6176a15386543794306aa24c9"
     },
     {
       "path": "gallery/gallery-runtime.mjs",
@@ -233,7 +233,11 @@
     },
     {
       "path": "gallery/index.html",
-      "sha256": "10520a681fc83e759474a6382a1bc9b5aeb3500a2ff8f2467dbbf663bbdd938c"
+      "sha256": "6256edf0f706a1d3f2c43b696d929cb06fe2c4697750b004a1be76f28a8f855b"
+    },
+    {
+      "path": "gallery/main.jsx",
+      "sha256": "142b4127c3a0bb1c9a5e5657107c0ca637805d589804f7594de2352958cff6e9"
     },
     {
       "path": "gallery/media/anime-key-visual@1.0.0.png",
@@ -410,6 +414,22 @@
     {
       "path": "gallery/media/white-background-product@1.0.0.png",
       "sha256": "65b9e7d4794d46da92875e46b5e6c0fb89e99bd531d0952597bd31509cf81922"
+    },
+    {
+      "path": "gallery/react-bits/BlurText.jsx",
+      "sha256": "eb0b9752cc71ae73ac5326b99c07e8a475fe2b489e7e10d3b4d65477c76c562d"
+    },
+    {
+      "path": "gallery/react-bits/ClickSpark.jsx",
+      "sha256": "938449e4162695708a4f9b43157ab58be11380f530b0d2ecd09e22e658976b4d"
+    },
+    {
+      "path": "gallery/react-bits/Magnet.jsx",
+      "sha256": "41ebd04e360b473faedcc4efc7c4700e33ae77bd89b25eb571a130f13e379a2a"
+    },
+    {
+      "path": "gallery/react-bits/SpotlightCard.jsx",
+      "sha256": "a2e529f3ddbf7bbb5d6a3665fe087e789e7f4eec2154f2aaac9004e6ba46bbe1"
     },
     {
       "path": "gallery/source/anime-key-visual@1.0.0.md",
@@ -589,19 +609,23 @@
     },
     {
       "path": "gallery/styles.css",
-      "sha256": "4138890c9495833a8c822056f4a02964ea7efc667ca7022fcb6f303e963708ba"
+      "sha256": "f239547a51e4465e1657a4d998508931a6dcd3e7289b34131a6e4b303f471ec1"
     },
     {
       "path": "gallery/translations.js",
-      "sha256": "8f90960ab8e927383e09714f88bc61e1d4be55ffad17b4f93159af4c9a28012b"
+      "sha256": "c2f46cd10d7481f10789eab96d0e4fe38b4372a407dc3c44a11aab421ed8541a"
+    },
+    {
+      "path": "gallery/vite.config.mjs",
+      "sha256": "cd07a678f52e4886e0e6580d9552def3235a2bcdd6195a0f94410675256e0394"
     },
     {
       "path": "package-lock.json",
-      "sha256": "18a10125172ebc5e4679afdc08ffa7dd538f4d054cdf42b725dd08f1e3e943da"
+      "sha256": "6246488d6149cb7316ad2a739dd4bd91badbbea46c92baff18338406ab2e9e21"
     },
     {
       "path": "package.json",
-      "sha256": "675eca14edc58fc01e6c2f8ea6b84111ff71a1ef5d96c6c0e556ae20306cea90"
+      "sha256": "f6fc1940924066975a0a2b4997a065366088ae636bc06e39ceeb0e1986f35c0b"
     },
     {
       "path": "references/INDEX.md",
@@ -804,6 +828,10 @@
       "sha256": "4edf1ce6d73fbe0e6cfeaa0d637e0dfe96f4cf2aed2baa0dc4c25f75d740fe51"
     },
     {
+      "path": "scripts/build-site.mjs",
+      "sha256": "df6684adb67349a070946213ec23f080ead78d25614c5797695f552411043610"
+    },
+    {
       "path": "scripts/effect-library.mjs",
       "sha256": "3372dea642b38031b5d8fde9094454a7a5352fd998d7a447a04fd4950f0b9e79"
     },
@@ -841,15 +869,15 @@
     },
     {
       "path": "tests/export-public-repo.test.mjs",
-      "sha256": "a8efb6231958c87e0f003529fb99c99078cec0e828525c67127192c1f06771aa"
+      "sha256": "cd64338ace7550f08aa9ab6eb4745e5d7e16108c3201fbfd75a451ea5c95e7e2"
     },
     {
       "path": "tests/gallery-assets.test.mjs",
-      "sha256": "74eb8ffb301ae5c938d1c6826ebde3c2b468677ee8bfe22763001087ec09be63"
+      "sha256": "2434c2e4324b75df7e274415c295c616de37b3fe41d51cd755e49ab8ddcb49cf"
     },
     {
       "path": "tests/gallery-model.test.mjs",
-      "sha256": "549964841e525462f6fb35f3a4388ee2b27a21d77da9bb3f05d5006f5cfd4011"
+      "sha256": "7c5d1b7373693313d15c8637ee0cd1cbbad6eff5b06ef2d191d5160c645ca99f"
     }
   ]
 }

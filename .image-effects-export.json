@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "wangjs-jacky/jacky-skills",
-  "sourceCommit": "c3e29538494591130fb9b3de34c0eca80e4f2bbf",
+  "sourceCommit": "79f7e0f899c46e88c7cd8152f17991e94472f950",
   "files": [
     {
       "path": ".github/workflows/pages.yml",
@@ -17,11 +17,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "766ca8fa27175bdcda9f78f69e99efa967cf728d6a6ddddcc41972097d530d07"
+      "sha256": "106d6e22a4e60a1ae89ba44935c7f4a328798ca38edf01e618720a78b6b0ea21"
     },
     {
       "path": "README_CN.md",
-      "sha256": "c25086e903339649f4fa8d48c7fb3acc28a35b442a21000d725aa5879c45bf97"
+      "sha256": "16466926563b21ec2f0baf8ecf08f1d752f9882f1cd1cdc8bd9bd43602f28736"
     },
     {
       "path": "SKILL.md",
@@ -824,6 +824,10 @@
       "sha256": "d15c81ae8fa9a0b4b1db46c66e4490cc92e4898fb1f55e030559fbd2a2e2a232"
     },
     {
+      "path": "references/release-sop.md",
+      "sha256": "0ef010e1b318b98f677ab560773703efc01c57e3e0b8c533005e1e10696047f4"
+    },
+    {
       "path": "scripts/build-gallery.mjs",
       "sha256": "4edf1ce6d73fbe0e6cfeaa0d637e0dfe96f4cf2aed2baa0dc4c25f75d740fe51"
     },
@@ -869,11 +873,11 @@
     },
     {
       "path": "tests/export-public-repo.test.mjs",
-      "sha256": "cd64338ace7550f08aa9ab6eb4745e5d7e16108c3201fbfd75a451ea5c95e7e2"
+      "sha256": "ce08249e6825e5f082099bdd8c909f6ecb4e46281e466cf976778c375cb49d05"
     },
     {
       "path": "tests/gallery-assets.test.mjs",
-      "sha256": "2434c2e4324b75df7e274415c295c616de37b3fe41d51cd755e49ab8ddcb49cf"
+      "sha256": "56ed2e77d8b9847087c91f29f0eca2dc223410967552a117f13bcc58eea209f1"
     },
     {
       "path": "tests/gallery-model.test.mjs",

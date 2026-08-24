@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "wangjs-jacky/jacky-skills",
-  "sourceCommit": "3792b5a190601a8cfc2296d194be6b0ba7064e28",
+  "sourceCommit": "bc930e8bc01734df6ba16a02481cf478683f76e0",
   "files": [
     {
       "path": ".github/workflows/pages.yml",
-      "sha256": "71b83316d89529a368e2cfe8802075db828c5a451369e0a96ee39ea7d9f45f3f"
+      "sha256": "645d24ff0c1ce258739245360a8e1b87e1ebe41479d05adf64c3a3a7d712c885"
     },
     {
       "path": ".gitignore",
@@ -17,11 +17,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "106d6e22a4e60a1ae89ba44935c7f4a328798ca38edf01e618720a78b6b0ea21"
+      "sha256": "1a7347745e3609b61f692033a214f8611dae7ae0d8aad79241c88782a48f1879"
     },
     {
       "path": "README_CN.md",
-      "sha256": "16466926563b21ec2f0baf8ecf08f1d752f9882f1cd1cdc8bd9bd43602f28736"
+      "sha256": "8b0e60d446ff6dda7642bd1ed808dfa3316710e83a4a1f52f624a5820acf5cd6"
     },
     {
       "path": "SKILL.md",
@@ -418,6 +418,10 @@
     {
       "path": "gallery/api/library.json",
       "sha256": "522c90daa6eb67b2b6b61070d0a832a0ec5bc6068c40c4d8cea22d28c06a2624"
+    },
+    {
+      "path": "gallery/catalog-metadata.json",
+      "sha256": "e2560b16fe3c51b74fa01edde0d91b1bb7a752186d0f661ab35ea91b5f5dcc10"
     },
     {
       "path": "gallery/gallery-config.mjs",
@@ -1625,7 +1629,7 @@
     },
     {
       "path": "references/release-sop.md",
-      "sha256": "0ef010e1b318b98f677ab560773703efc01c57e3e0b8c533005e1e10696047f4"
+      "sha256": "baa6ed862c433a190958fdbe52032058931c078d2a3f63460f74ca238be52ef6"
     },
     {
       "path": "scripts/build-gallery.mjs",
@@ -1652,6 +1656,10 @@
       "sha256": "6eb5f5cf596456f4e5df07f22044a49549307bf573f1701867968e222de998e8"
     },
     {
+      "path": "scripts/publish-gallery-media.mjs",
+      "sha256": "385dcdd74a3dfc952539c8fd994fccbadb034268daa9cb5da0d4a7d95f49f17b"
+    },
+    {
       "path": "scripts/validate-effects.mjs",
       "sha256": "8b60a538da274dd12239fb5b5f59d3c358b8ce62cd0a6dd30b669eb38f2cea23"
     },
@@ -1662,6 +1670,10 @@
     {
       "path": "tests/catalog-fixture.mjs",
       "sha256": "5caf17d1a05a80806443945790c62e340f09bcad2e0ebeceb2b05bdc702335e1"
+    },
+    {
+      "path": "tests/catalog-metadata.test.mjs",
+      "sha256": "d2e5a011a4d72c0b63fad64810551573534182481278eaf80b17b7de8e694c31"
     },
     {
       "path": "tests/effect-assets.test.mjs",
@@ -1682,6 +1694,10 @@
     {
       "path": "tests/gallery-model.test.mjs",
       "sha256": "7c5d1b7373693313d15c8637ee0cd1cbbad6eff5b06ef2d191d5160c645ca99f"
+    },
+    {
+      "path": "tests/publish-gallery-media.test.mjs",
+      "sha256": "6b812cd604756eeb97053803ccd8bacf5c9d4d97bfcc75c81ce9b47715b5ecbf"
     }
   ]
 }

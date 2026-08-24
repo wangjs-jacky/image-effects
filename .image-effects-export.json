@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "wangjs-jacky/jacky-skills",
-  "sourceCommit": "ce2db7948d411f101984df704de625453c420290",
+  "sourceCommit": "7eabf58876ad939fe7a52b0525e40904e01e66a9",
   "files": [
     {
       "path": ".github/workflows/pages.yml",

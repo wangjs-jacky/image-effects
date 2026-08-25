@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "wangjs-jacky/jacky-skills",
-  "sourceCommit": "3f2e7eff7a9b2b13d1e284042655f40e1e9ae73a",
+  "sourceCommit": "52d77c6d3842a5973a7fce51de9d36ac06d2cf9c",
   "files": [
     {
       "path": ".github/workflows/pages.yml",
@@ -33,7 +33,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "a044535a742820372f9d1b396cff977401d9b118966289ee9915d10d260be08c"
+      "sha256": "249ae5fb38584306fbb0a84046f1997218e29feec2d3fa9bc8594c762b282aca"
     },
     {
       "path": "agents/openai.yaml",
@@ -186,6 +186,10 @@
     {
       "path": "assets/previews/illustrated-city-map.png",
       "sha256": "eaba06f64a4488fd33983435672a1e15a88140e5a860b2ad9de85c329093ff52"
+    },
+    {
+      "path": "assets/previews/kinetic-graphite-character-study.png",
+      "sha256": "fb70bd6a65adbdf66a64225db4da442934e72ad8cf45be2d5a78011d52513cbb"
     },
     {
       "path": "assets/previews/kpi-dashboard-infographic.png",
@@ -417,11 +421,11 @@
     },
     {
       "path": "gallery/api/library.json",
-      "sha256": "522c90daa6eb67b2b6b61070d0a832a0ec5bc6068c40c4d8cea22d28c06a2624"
+      "sha256": "1d8aaa13d54a3c69e2d301cca5a65cefe3fc976f4c5fd99db5c8b7ac7f876bb3"
     },
     {
       "path": "gallery/catalog-metadata.json",
-      "sha256": "e2560b16fe3c51b74fa01edde0d91b1bb7a752186d0f661ab35ea91b5f5dcc10"
+      "sha256": "33cb54a8b3af51c9e7d30414e4a5e6db270059aa70ffd40a194c6012492c446f"
     },
     {
       "path": "gallery/gallery-config.mjs",
@@ -590,6 +594,10 @@
     {
       "path": "gallery/media/illustrated-city-map@1.0.0.png",
       "sha256": "eaba06f64a4488fd33983435672a1e15a88140e5a860b2ad9de85c329093ff52"
+    },
+    {
+      "path": "gallery/media/kinetic-graphite-character-study@1.0.0.png",
+      "sha256": "fb70bd6a65adbdf66a64225db4da442934e72ad8cf45be2d5a78011d52513cbb"
     },
     {
       "path": "gallery/media/kpi-dashboard-infographic@1.0.0.png",
@@ -984,6 +992,10 @@
       "sha256": "8be01f06dbbc53c886a7fd4bd8522d9a201ad7ef89c4d8165e675c8b391a9bcf"
     },
     {
+      "path": "gallery/source/kinetic-graphite-character-study@1.0.0.md",
+      "sha256": "e701c1bfae7f172d937768201e9629b73489b981aca79c5fe1d5327812f7ffff"
+    },
+    {
       "path": "gallery/source/kpi-dashboard-infographic@1.0.0.md",
       "sha256": "312c7dbadee218bc70506faa463776d894c12df6cd3f36f99f0329c0fdf9049d"
     },
@@ -1233,7 +1245,7 @@
     },
     {
       "path": "references/INDEX.md",
-      "sha256": "c302862e95793c44de2f9befe730f7bf5c07ebbdf7f323860e5819052b49235c"
+      "sha256": "416feaf96df6ffb2f7c65fd0e1f677cd6f564cf3cd837546cf72f461b8906b0e"
     },
     {
       "path": "references/effects/anime-key-visual.md",
@@ -1382,6 +1394,10 @@
     {
       "path": "references/effects/illustrated-city-map.md",
       "sha256": "8be01f06dbbc53c886a7fd4bd8522d9a201ad7ef89c4d8165e675c8b391a9bcf"
+    },
+    {
+      "path": "references/effects/kinetic-graphite-character-study.md",
+      "sha256": "e701c1bfae7f172d937768201e9629b73489b981aca79c5fe1d5327812f7ffff"
     },
     {
       "path": "references/effects/kpi-dashboard-infographic.md",
@@ -1669,7 +1685,7 @@
     },
     {
       "path": "tests/catalog-fixture.mjs",
-      "sha256": "5caf17d1a05a80806443945790c62e340f09bcad2e0ebeceb2b05bdc702335e1"
+      "sha256": "fbc2ee8616f0f7c6920b2b61991f4c95a6f96107d5dc76ab6cb60cba2e52afbf"
     },
     {
       "path": "tests/catalog-metadata.test.mjs",
@@ -1677,7 +1693,7 @@
     },
     {
       "path": "tests/effect-assets.test.mjs",
-      "sha256": "899eb21973681944753f61f4b75d98e908ae6d376bc29287dcca68bee004cf0d"
+      "sha256": "11e4e15e005c13bef24439fc58ceea3dd987bd935d9b09d940a2d6caea97c0f3"
     },
     {
       "path": "tests/effect-library.test.mjs",
@@ -1689,7 +1705,7 @@
     },
     {
       "path": "tests/gallery-assets.test.mjs",
-      "sha256": "723803bd72f9ba972ae70c3c5120bbe8c36c80a1de6c682eb1247d4bdc5954b8"
+      "sha256": "193179a784266170d38d4b1029571ad5e0cae78e47574963d6240ca52aa8ca26"
     },
     {
       "path": "tests/gallery-model.test.mjs",

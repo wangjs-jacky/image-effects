@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceRepository": "wangjs-jacky/jacky-skills",
-  "sourceCommit": "52d77c6d3842a5973a7fce51de9d36ac06d2cf9c",
+  "sourceCommit": "8e5248f4fd866f443bd4f29483f1f639558540fc",
   "files": [
     {
       "path": ".github/workflows/pages.yml",
@@ -33,7 +33,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "sha256": "249ae5fb38584306fbb0a84046f1997218e29feec2d3fa9bc8594c762b282aca"
+      "sha256": "ae3b06bb0885aa94f6b3895bd61d83b5bd27dd46ccff34d7ff617698f9cc99fc"
     },
     {
       "path": "agents/openai.yaml",
@@ -268,6 +268,10 @@
       "sha256": "da0a558a3cf901198b3c28518813d2de34d9fece24e9f6ddca63f66523a1cd3b"
     },
     {
+      "path": "assets/previews/photo-illustration-diptych-coastline.jpg",
+      "sha256": "f4f5feb83d28dd60e310afbfaf1bdf79f9294884baec8f3b1b488b840a38382e"
+    },
+    {
       "path": "assets/previews/photo-illustration-diptych-lakeside.png",
       "sha256": "e6b830bd342c43ca435022385cfd5b1ea3720de7216d3599e27c3dd205d9b67a"
     },
@@ -421,11 +425,11 @@
     },
     {
       "path": "gallery/api/library.json",
-      "sha256": "1d8aaa13d54a3c69e2d301cca5a65cefe3fc976f4c5fd99db5c8b7ac7f876bb3"
+      "sha256": "0c9c28e9020bf85129ea8b0197e3e5e662cd412a6401496a89bcf311f35ccfa9"
     },
     {
       "path": "gallery/catalog-metadata.json",
-      "sha256": "33cb54a8b3af51c9e7d30414e4a5e6db270059aa70ffd40a194c6012492c446f"
+      "sha256": "ab0a71640680ea13a701b0220e2e46e81a0896b7860c982199132fadca1d2d41"
     },
     {
       "path": "gallery/gallery-config.mjs",
@@ -674,6 +678,10 @@
     {
       "path": "gallery/media/packaging-showcase@1.0.0.png",
       "sha256": "da0a558a3cf901198b3c28518813d2de34d9fece24e9f6ddca63f66523a1cd3b"
+    },
+    {
+      "path": "gallery/media/photo-illustration-diptych-coastline@1.0.0.jpg",
+      "sha256": "f4f5feb83d28dd60e310afbfaf1bdf79f9294884baec8f3b1b488b840a38382e"
     },
     {
       "path": "gallery/media/photo-illustration-diptych-lakeside@1.0.0.png",
@@ -1072,6 +1080,10 @@
       "sha256": "fb03d4744117498bbbd11bc6ca5d2b0c77138c18cf338c98c9dace6f32e68045"
     },
     {
+      "path": "gallery/source/photo-illustration-diptych-coastline@1.0.0.md",
+      "sha256": "e51828930d869484fbc57c42c4748f504c0f705098264998c2f356235bfa9474"
+    },
+    {
       "path": "gallery/source/photo-illustration-diptych-lakeside@1.0.0.md",
       "sha256": "c4453b8e7c2b1ec72cbff1991372264befbf2512fd65bdea7b3eba96bf694922"
     },
@@ -1245,7 +1257,7 @@
     },
     {
       "path": "references/INDEX.md",
-      "sha256": "416feaf96df6ffb2f7c65fd0e1f677cd6f564cf3cd837546cf72f461b8906b0e"
+      "sha256": "c11a2326f543cad2e23ea25bb24a395c3458da87600ef7a2dcb9aa5b2467e199"
     },
     {
       "path": "references/effects/anime-key-visual.md",
@@ -1476,6 +1488,10 @@
       "sha256": "fb03d4744117498bbbd11bc6ca5d2b0c77138c18cf338c98c9dace6f32e68045"
     },
     {
+      "path": "references/effects/photo-illustration-diptych-coastline.md",
+      "sha256": "e51828930d869484fbc57c42c4748f504c0f705098264998c2f356235bfa9474"
+    },
+    {
       "path": "references/effects/photo-illustration-diptych-lakeside.md",
       "sha256": "c4453b8e7c2b1ec72cbff1991372264befbf2512fd65bdea7b3eba96bf694922"
     },
@@ -1685,7 +1701,7 @@
     },
     {
       "path": "tests/catalog-fixture.mjs",
-      "sha256": "fbc2ee8616f0f7c6920b2b61991f4c95a6f96107d5dc76ab6cb60cba2e52afbf"
+      "sha256": "e6d306067ec6d0d8a472161f8078388421e54fa8dafe539cd5ee9f97dc181273"
     },
     {
       "path": "tests/catalog-metadata.test.mjs",
@@ -1705,7 +1721,7 @@
     },
     {
       "path": "tests/gallery-assets.test.mjs",
-      "sha256": "193179a784266170d38d4b1029571ad5e0cae78e47574963d6240ca52aa8ca26"
+      "sha256": "d4d6b18dd5a826ba4070ed2fef96db48d71901597e92aacff709b9eff79cd3a2"
     },
     {
       "path": "tests/gallery-model.test.mjs",
